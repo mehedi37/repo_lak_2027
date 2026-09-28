@@ -1,0 +1,20 @@
+{
+  "catalogue_nodes": 97,
+  "catalogue_edges": 52,
+  "cohorts": {
+    "A": {
+      "students": 180,
+      "raw_records": 12308,
+      "deduplicated_records": 12200,
+      "courses_with_grades": 69,
+      "eligible_ge30": 69
+    },
+    "B": {
+      "students": 179,
+      "raw_records": 8322,
+      "deduplicated_records": 8322,
+      "courses_with_grades": 47,
+      "eligible_ge30": 47
+    }
+  }
+}

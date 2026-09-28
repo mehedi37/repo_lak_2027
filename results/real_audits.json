@@ -1,0 +1,815 @@
+{
+  "local": {
+    "A": {
+      "n": 69,
+      "students": 180,
+      "excluded_no_eligible_grades": 28,
+      "analyses": {
+        "3": {
+          "n": 69,
+          "k": 3,
+          "overlap": 0.0,
+          "chance_overlap": 0.043478260869565216,
+          "heuristic_choice": "merge",
+          "excluded_constant_sources": [],
+          "lists": {
+            "S": [
+              "C004",
+              "C014",
+              "C007"
+            ],
+            "P": [
+              "C041",
+              "C087",
+              "C085"
+            ],
+            "average": [
+              "C014",
+              "C017",
+              "C041"
+            ],
+            "merge": [
+              "C004",
+              "C041",
+              "C014"
+            ],
+            "rrf": [
+              "C014",
+              "C017",
+              "C041"
+            ],
+            "heuristic": [
+              "C004",
+              "C041",
+              "C014"
+            ],
+            "raw_mean": [
+              "C004",
+              "C014",
+              "C007"
+            ],
+            "blocking": [
+              "C004",
+              "C014",
+              "C007"
+            ],
+            "betweenness": [
+              "C017",
+              "C039",
+              "C007"
+            ]
+          },
+          "bounds": {
+            "average": 0.6666666666666666,
+            "merge": 0.3333333333333333,
+            "rrf": 0.6666666666666666,
+            "heuristic": 0.3333333333333333,
+            "raw_mean": 0.0
+          },
+          "precision_reference": {
+            "S": 0.3333333333333333,
+            "P": 0.0,
+            "average": 0.3333333333333333,
+            "merge": 0.0,
+            "rrf": 0.3333333333333333,
+            "heuristic": 0.0,
+            "raw_mean": 0.3333333333333333,
+            "blocking": 0.3333333333333333,
+            "betweenness": 0.6666666666666666
+          },
+          "eligible_reference_courses": 5
+        },
+        "5": {
+          "n": 69,
+          "k": 5,
+          "overlap": 0.0,
+          "chance_overlap": 0.07246376811594203,
+          "heuristic_choice": "merge",
+          "excluded_constant_sources": [],
+          "lists": {
+            "S": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029"
+            ],
+            "P": [
+              "C041",
+              "C087",
+              "C085",
+              "C094",
+              "C049"
+            ],
+            "average": [
+              "C014",
+              "C017",
+              "C041",
+              "C029",
+              "C096"
+            ],
+            "merge": [
+              "C004",
+              "C041",
+              "C014",
+              "C087",
+              "C007"
+            ],
+            "rrf": [
+              "C014",
+              "C017",
+              "C041",
+              "C029",
+              "C096"
+            ],
+            "heuristic": [
+              "C004",
+              "C041",
+              "C014",
+              "C087",
+              "C007"
+            ],
+            "raw_mean": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029"
+            ],
+            "blocking": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029"
+            ],
+            "betweenness": [
+              "C017",
+              "C039",
+              "C007",
+              "C035",
+              "C029"
+            ]
+          },
+          "bounds": {
+            "average": 0.4,
+            "merge": 0.4,
+            "rrf": 0.4,
+            "heuristic": 0.4,
+            "raw_mean": 0.0
+          },
+          "precision_reference": {
+            "S": 0.6,
+            "P": 0.0,
+            "average": 0.4,
+            "merge": 0.2,
+            "rrf": 0.4,
+            "heuristic": 0.2,
+            "raw_mean": 0.6,
+            "blocking": 0.6,
+            "betweenness": 0.6
+          },
+          "eligible_reference_courses": 5
+        },
+        "10": {
+          "n": 69,
+          "k": 10,
+          "overlap": 0.3,
+          "chance_overlap": 0.14492753623188406,
+          "heuristic_choice": "average",
+          "excluded_constant_sources": [],
+          "lists": {
+            "S": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029",
+              "C012",
+              "C035",
+              "C039",
+              "C047",
+              "C009"
+            ],
+            "P": [
+              "C041",
+              "C087",
+              "C085",
+              "C094",
+              "C049",
+              "C096",
+              "C014",
+              "C017",
+              "C029",
+              "C045"
+            ],
+            "average": [
+              "C014",
+              "C017",
+              "C041",
+              "C029",
+              "C096",
+              "C039",
+              "C007",
+              "C012",
+              "C021",
+              "C095"
+            ],
+            "merge": [
+              "C004",
+              "C041",
+              "C014",
+              "C087",
+              "C007",
+              "C085",
+              "C017",
+              "C094",
+              "C029",
+              "C049"
+            ],
+            "rrf": [
+              "C014",
+              "C017",
+              "C041",
+              "C029",
+              "C096",
+              "C007",
+              "C039",
+              "C012",
+              "C087",
+              "C085"
+            ],
+            "heuristic": [
+              "C014",
+              "C017",
+              "C041",
+              "C029",
+              "C096",
+              "C039",
+              "C007",
+              "C012",
+              "C021",
+              "C095"
+            ],
+            "raw_mean": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029",
+              "C012",
+              "C041",
+              "C096",
+              "C035",
+              "C039"
+            ],
+            "blocking": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029",
+              "C012",
+              "C035",
+              "C009",
+              "C021",
+              "C039"
+            ],
+            "betweenness": [
+              "C017",
+              "C039",
+              "C007",
+              "C035",
+              "C029",
+              "C047",
+              "C009",
+              "C021",
+              "C024",
+              "C019"
+            ]
+          },
+          "bounds": {
+            "average": 0.4,
+            "merge": 0.2,
+            "rrf": 0.3,
+            "heuristic": 0.4,
+            "raw_mean": 0.2
+          },
+          "precision_reference": {
+            "S": 0.4,
+            "P": 0.2,
+            "average": 0.4,
+            "merge": 0.3,
+            "rrf": 0.3,
+            "heuristic": 0.4,
+            "raw_mean": 0.3,
+            "blocking": 0.5,
+            "betweenness": 0.5
+          },
+          "eligible_reference_courses": 5
+        }
+      },
+      "max_tie_replacement_fraction": {
+        "S": 0.0,
+        "P": 0.0,
+        "average": 0.0,
+        "merge": 0.0
+      },
+      "tie_precision_range": {
+        "S": [
+          0.6,
+          0.6
+        ],
+        "P": [
+          0.0,
+          0.0
+        ],
+        "average": [
+          0.4,
+          0.4
+        ],
+        "merge": [
+          0.2,
+          0.2
+        ]
+      },
+      "merge_source_order_precision_range": [
+        0.0,
+        0.2
+      ]
+    },
+    "B": {
+      "n": 47,
+      "students": 179,
+      "excluded_no_eligible_grades": 50,
+      "analyses": {
+        "3": {
+          "n": 47,
+          "k": 3,
+          "overlap": 0.0,
+          "chance_overlap": 0.06382978723404255,
+          "heuristic_choice": "merge",
+          "excluded_constant_sources": [],
+          "lists": {
+            "S": [
+              "C004",
+              "C014",
+              "C007"
+            ],
+            "P": [
+              "C094",
+              "C095",
+              "C027"
+            ],
+            "average": [
+              "C029",
+              "C096",
+              "C014"
+            ],
+            "merge": [
+              "C004",
+              "C094",
+              "C014"
+            ],
+            "rrf": [
+              "C029",
+              "C096",
+              "C014"
+            ],
+            "heuristic": [
+              "C004",
+              "C094",
+              "C014"
+            ],
+            "raw_mean": [
+              "C004",
+              "C014",
+              "C029"
+            ],
+            "blocking": [
+              "C004",
+              "C014",
+              "C007"
+            ],
+            "betweenness": [
+              "C017",
+              "C007",
+              "C029"
+            ]
+          },
+          "bounds": {
+            "average": 0.6666666666666666,
+            "merge": 0.3333333333333333,
+            "rrf": 0.6666666666666666,
+            "heuristic": 0.3333333333333333,
+            "raw_mean": 0.3333333333333333
+          },
+          "precision_reference": {
+            "S": 0.3333333333333333,
+            "P": 0.0,
+            "average": 0.3333333333333333,
+            "merge": 0.0,
+            "rrf": 0.3333333333333333,
+            "heuristic": 0.0,
+            "raw_mean": 0.3333333333333333,
+            "blocking": 0.3333333333333333,
+            "betweenness": 1.0
+          },
+          "eligible_reference_courses": 5
+        },
+        "5": {
+          "n": 47,
+          "k": 5,
+          "overlap": 0.2,
+          "chance_overlap": 0.10638297872340426,
+          "heuristic_choice": "average",
+          "excluded_constant_sources": [],
+          "lists": {
+            "S": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029"
+            ],
+            "P": [
+              "C094",
+              "C095",
+              "C027",
+              "C096",
+              "C029"
+            ],
+            "average": [
+              "C029",
+              "C096",
+              "C014",
+              "C095",
+              "C012"
+            ],
+            "merge": [
+              "C004",
+              "C094",
+              "C014",
+              "C095",
+              "C007"
+            ],
+            "rrf": [
+              "C029",
+              "C096",
+              "C014",
+              "C095",
+              "C027"
+            ],
+            "heuristic": [
+              "C029",
+              "C096",
+              "C014",
+              "C095",
+              "C012"
+            ],
+            "raw_mean": [
+              "C004",
+              "C014",
+              "C029",
+              "C007",
+              "C017"
+            ],
+            "blocking": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029"
+            ],
+            "betweenness": [
+              "C017",
+              "C007",
+              "C029",
+              "C009",
+              "C021"
+            ]
+          },
+          "bounds": {
+            "average": 0.4,
+            "merge": 0.4,
+            "rrf": 0.2,
+            "heuristic": 0.4,
+            "raw_mean": 0.0
+          },
+          "precision_reference": {
+            "S": 0.6,
+            "P": 0.2,
+            "average": 0.2,
+            "merge": 0.2,
+            "rrf": 0.2,
+            "heuristic": 0.2,
+            "raw_mean": 0.6,
+            "blocking": 0.6,
+            "betweenness": 1.0
+          },
+          "eligible_reference_courses": 5
+        },
+        "10": {
+          "n": 47,
+          "k": 10,
+          "overlap": 0.2,
+          "chance_overlap": 0.2127659574468085,
+          "heuristic_choice": "merge",
+          "excluded_constant_sources": [],
+          "lists": {
+            "S": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029",
+              "C012",
+              "C009",
+              "C021",
+              "C096",
+              "C026"
+            ],
+            "P": [
+              "C094",
+              "C095",
+              "C027",
+              "C096",
+              "C029",
+              "C097",
+              "C085",
+              "C087",
+              "C031",
+              "C083"
+            ],
+            "average": [
+              "C029",
+              "C096",
+              "C014",
+              "C095",
+              "C012",
+              "C027",
+              "C031",
+              "C017",
+              "C009",
+              "C026"
+            ],
+            "merge": [
+              "C004",
+              "C094",
+              "C014",
+              "C095",
+              "C007",
+              "C027",
+              "C017",
+              "C096",
+              "C029",
+              "C012"
+            ],
+            "rrf": [
+              "C029",
+              "C096",
+              "C014",
+              "C095",
+              "C027",
+              "C012",
+              "C017",
+              "C031",
+              "C009",
+              "C026"
+            ],
+            "heuristic": [
+              "C004",
+              "C094",
+              "C014",
+              "C095",
+              "C007",
+              "C027",
+              "C017",
+              "C096",
+              "C029",
+              "C012"
+            ],
+            "raw_mean": [
+              "C004",
+              "C014",
+              "C029",
+              "C007",
+              "C017",
+              "C012",
+              "C094",
+              "C096",
+              "C095",
+              "C027"
+            ],
+            "blocking": [
+              "C004",
+              "C014",
+              "C007",
+              "C017",
+              "C029",
+              "C012",
+              "C009",
+              "C021",
+              "C096",
+              "C026"
+            ],
+            "betweenness": [
+              "C017",
+              "C007",
+              "C029",
+              "C009",
+              "C021",
+              "C024",
+              "C019",
+              "C026",
+              "C027",
+              "C031"
+            ]
+          },
+          "bounds": {
+            "average": 0.3,
+            "merge": 0.3,
+            "rrf": 0.3,
+            "heuristic": 0.3,
+            "raw_mean": 0.3
+          },
+          "precision_reference": {
+            "S": 0.5,
+            "P": 0.1,
+            "average": 0.3,
+            "merge": 0.3,
+            "rrf": 0.3,
+            "heuristic": 0.3,
+            "raw_mean": 0.3,
+            "blocking": 0.5,
+            "betweenness": 0.5
+          },
+          "eligible_reference_courses": 5
+        }
+      },
+      "max_tie_replacement_fraction": {
+        "S": 0.0,
+        "P": 0.0,
+        "average": 0.2,
+        "merge": 0.0
+      },
+      "tie_precision_range": {
+        "S": [
+          0.6,
+          0.6
+        ],
+        "P": [
+          0.2,
+          0.2
+        ],
+        "average": [
+          0.2,
+          0.2
+        ],
+        "merge": [
+          0.2,
+          0.2
+        ]
+      },
+      "merge_source_order_precision_range": [
+        0.0,
+        0.2
+      ]
+    }
+  },
+  "oulad": {
+    "2013": {
+      "n": 6,
+      "k": 2,
+      "overlap": 0.5,
+      "chance_overlap": 0.3333333333333333,
+      "heuristic_choice": "average",
+      "excluded_constant_sources": [],
+      "lists": {
+        "P": [
+          "DDD",
+          "BBB"
+        ],
+        "D": [
+          "DDD",
+          "GGG"
+        ],
+        "average": [
+          "DDD",
+          "BBB"
+        ],
+        "merge": [
+          "DDD",
+          "BBB"
+        ],
+        "rrf": [
+          "DDD",
+          "BBB"
+        ],
+        "heuristic": [
+          "DDD",
+          "BBB"
+        ],
+        "weighted": [
+          "DDD",
+          "BBB"
+        ]
+      },
+      "bounds": {
+        "average": 0.0,
+        "merge": 0.0,
+        "rrf": 0.0,
+        "heuristic": 0.0,
+        "weighted": 0.0
+      },
+      "tau_rank_average_vs_performance": 0.8280786712108251,
+      "tau_weighted_vs_performance": 0.8666666666666666,
+      "module_list": [
+        "AAA",
+        "BBB",
+        "DDD",
+        "EEE",
+        "FFF",
+        "GGG"
+      ],
+      "registrations": 13529
+    },
+    "2014": {
+      "n": 7,
+      "k": 2,
+      "overlap": 0.5,
+      "chance_overlap": 0.2857142857142857,
+      "heuristic_choice": "average",
+      "excluded_constant_sources": [],
+      "lists": {
+        "P": [
+          "CCC",
+          "DDD"
+        ],
+        "D": [
+          "BBB",
+          "CCC"
+        ],
+        "average": [
+          "CCC",
+          "BBB"
+        ],
+        "merge": [
+          "CCC",
+          "BBB"
+        ],
+        "rrf": [
+          "CCC",
+          "BBB"
+        ],
+        "heuristic": [
+          "CCC",
+          "BBB"
+        ],
+        "weighted": [
+          "CCC",
+          "DDD"
+        ]
+      },
+      "bounds": {
+        "average": 0.0,
+        "merge": 0.0,
+        "rrf": 0.0,
+        "heuristic": 0.0,
+        "weighted": 0.0
+      },
+      "tau_rank_average_vs_performance": 0.7509392614826383,
+      "tau_weighted_vs_performance": 0.8095238095238096,
+      "module_list": [
+        "AAA",
+        "BBB",
+        "CCC",
+        "DDD",
+        "EEE",
+        "FFF",
+        "GGG"
+      ],
+      "registrations": 19064
+    }
+  },
+  "provenance": {
+    "catalogue_nodes": 97,
+    "catalogue_edges": 52,
+    "cohorts": {
+      "A": {
+        "students": 180,
+        "raw_records": 12308,
+        "deduplicated_records": 12200,
+        "courses_with_grades": 69,
+        "eligible_ge30": 69
+      },
+      "B": {
+        "students": 179,
+        "raw_records": 8322,
+        "deduplicated_records": 8322,
+        "courses_with_grades": 47,
+        "eligible_ge30": 47
+      }
+    }
+  }
+}

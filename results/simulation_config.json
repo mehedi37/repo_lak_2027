@@ -1,0 +1,37 @@
+{
+  "trials_per_condition": 30,
+  "seeds": [
+    43000,
+    43029
+  ],
+  "base_curricula": 120,
+  "conditions": [
+    "Coverage",
+    "Mixed",
+    "Shared",
+    "Correlated perturbations",
+    "Shuffled feedback",
+    "Missing edges",
+    "Shared bias"
+  ],
+  "n_courses": 60,
+  "n_students": 600,
+  "n_planted": 8,
+  "k": [
+    5,
+    8,
+    12
+  ],
+  "reviews_per_course": 30,
+  "bootstrap_replicates": 5000,
+  "source_order": [
+    "S",
+    "P",
+    "E"
+  ],
+  "source_order_sensitivity": 6,
+  "tie_order_sensitivity": 20,
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "networkx": "3.6.1"
+}
